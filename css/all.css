@@ -667,6 +667,7 @@ aside ul li a{
     width: 100%;
     column-gap: 10px;
     align-items: center
+    justify-content: center
 }
 .day{
     margin-left: -3.5px;
@@ -686,7 +687,7 @@ aside ul li a{
     resize: none;
     border: none;
     font-size: 18px;
-    margin-left: 5px;
+    margin-left: 3px;
 }
 .container .form .OKbtn input{
     background-color:rgb(14,86,64);
@@ -1029,7 +1030,9 @@ aside ul li a{
     .header_wrap {
         width: 100%;
     }
-        
+    .header_icon{
+        padding-right: 10px;
+    }
 
 
     .wrap_left, .wrap_center, .wrap_right{
@@ -1124,22 +1127,37 @@ aside ul li a{
     .info{
         margin-top: 40px;
         padding: 20px 0 40px 0;
-        }
-        .container{
-        flex-direction: column;
-        padding: 30px;
-        }
-        .container .map{
-            width: 100%;
-            height: 300px;
-        }    
-        .container .form{
+    }
+    .container{
+    flex-direction: column;
+    padding: 30px;
+    }
+    .container .map{
         width: 100%;
+        height: 300px;
+    }    
+    .container .form{
+    width: 100%;
+    margin-left: 0;
+    margin-top: 30px;
+
+    }
+    .container .form input{
+        width: 100%;
+    }
+    #name{
+        width: 20%;
+        margin-left: -8px;
+    }
+    #woman, #man{
+        width: 20px;
+    }
+    .day{
         margin-left: 0;
-        margin-top: 30px;
-    
-        }
-    
+    }
+    .note textarea{
+        margin-left: 0;
+    }
     
 
 
