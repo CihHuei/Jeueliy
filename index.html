@@ -14,12 +14,13 @@
         <link type="text/css" rel="stylesheet" href="css/all.css">
         <link  rel="stylesheet"  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     </head>
     <body>
         <header>
             <div class="header_wrap">
                 <div class="header_logo">
-                    <a href="product.html">
+                    <a href="index.html">
                         <img src="img/logo.png" alt="JeueliyLogo">
                     </a>
                 </div>
@@ -91,7 +92,7 @@
                 <p>讓你享受生活，上癮般一口接一口<br>
                 新鮮、健康、獨特，大家都流連忘返！</p>
             </div>
-            <div class="item">
+            <div class="item"  data-aos="fade-left">
                 <div class="pic">
                     <div class="img_container">
                         <img src="img/content_1_img1.png" alt="新鮮在地食材">
@@ -119,7 +120,7 @@
 
 
         <div class="content_2 font">
-            <div class="item_1">
+            <div class="item_1" data-aos="fade-left">
                 <div class="pic">
                     <img src="img/content_2_img1.png" alt="資深法國主廚">
                 </div>
@@ -128,7 +129,7 @@
                     <p>珍妮·賽達佛真（Jeue Sedefdjian）是法國廚師。她擁有三顆米其林星和三家餐廳，分別是倫敦的The Connaught餐廳的HélèneDarroze和巴黎和莫斯科的HélèneDarroze餐廳。</p>
                 </div>
             </div>
-            <div class="item_2">
+            <div class="item_2" data-aos="fade-right">
                 <div class="txt">
                     <h2>專業甜點師<br>Lily Sophie Pic</h2>
                     <p>安妮·索菲·皮克（Lily Sophie Pic）是法國甜品師，以在法國東南部的梅森·皮克（Maison Pic）餐廳獲得米其林三顆星而聞名。她是榮獲米其林三星級榮譽的第四位女廚師。</p>
@@ -145,7 +146,7 @@
             <div class="txt">
                 <h2>Jeueliy最新評論</h2>
             </div>
-            <div class="wrap">
+            <div class="wrap" data-aos="fade-up">
                 <div class="item">
                     <div class="item_head">
                         <div class="pic">
@@ -244,6 +245,7 @@
 
         <script src="js/jquery-3.6.0.min.js"></script>
         <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script src="js/all.js"></script>
         <script>
             $(document).ready(function () {
@@ -264,6 +266,10 @@
                     //},
             });
         });
+
+        
+            AOS.init();
+
     </script>
 
 
