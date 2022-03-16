@@ -2,7 +2,7 @@
     list-style: none;
 }
 html,body{
-    width: 100%;
+    width: 100vw;
 }
 .font{
     font-family: 'Noto Sans TC';
@@ -100,7 +100,7 @@ header{
     position: absolute;
     width: 30px;
     top: 60px;
-    right: 60px;
+    right: calc( 50% - 13px );
 }
 .mobile_menu .mobile_menu_btn img{
     width: 100%;
@@ -114,7 +114,7 @@ header{
     align-items: center;
 }
 .mobile_menu ul li{
-    margin-top: 20px;
+    margin-top: 50px;
 }
 .mobile_menu ul li a{
     text-decoration: none;
@@ -241,6 +241,7 @@ footer .footer_wrap .copyright{
     align-items: center;
     padding: 150px 0;
     background-color: rgb(126, 172, 169);
+    box-sizing: border-box;
 }
 .content_1 .txt{
     text-align: center;
@@ -301,6 +302,7 @@ footer .footer_wrap .copyright{
     flex-direction: column;
     align-items: center;
     row-gap: 50px;
+    box-sizing: border-box;
 }
 .content_2 .item_1,.content_2 .item_2{
     width: 960px;
@@ -350,6 +352,7 @@ footer .footer_wrap .copyright{
     width: 100%;
     padding: 150px 0;
     background-color: rgb(245, 229, 204);
+    box-sizing: border-box;
 }
 .content_3 .txt{
     text-align: center;
@@ -706,6 +709,7 @@ aside ul li a{
 
     .header_wrap{
         height: 70px;
+        width: 100%;
     }
     .header_wrap .header_logo{
         height: 70px;
@@ -905,6 +909,11 @@ aside ul li a{
 
 @media screen and (max-width:768px){
 
+    .header_wrap {
+        width: 100%;
+    }
+
+
     footer{
         padding: 50px 0;
     }
@@ -1015,6 +1024,11 @@ aside ul li a{
 
 
 @media screen and (max-width:576px){
+
+    .header_wrap {
+        width: 100%;
+    }
+        
 
 
     .wrap_left, .wrap_center, .wrap_right{
